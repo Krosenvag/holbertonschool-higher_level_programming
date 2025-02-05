@@ -6,6 +6,4 @@ class MyList(list):
     def print_sorted(self):
         """Prints MyList lists in ascending order by value.
         """
-        sorted_list = self[:]
-        sorted_list.sort()
-        print(sorted_list)
+        print(sorted(self))
