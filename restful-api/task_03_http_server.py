@@ -60,6 +60,6 @@ class SimpleHandler(http.server.BaseHTTPRequestHandler):
 Handler = SimpleHandler
 
 
-with socketserver.TCPServer(("", PORT), Handler) as http:
+with socketserver.TCPServer(("", PORT), Handler) as httpd:
     print(f"Serving at port {PORT}")
     httpd.serve_forever()
