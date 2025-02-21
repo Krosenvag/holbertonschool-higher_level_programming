@@ -27,7 +27,7 @@ class SimpleHandler(http.server.BaseHTTPRequestHandler):
     Handles HTTP GET requests.
     """
 
-    def make_GET(self):
+    def do_GET(self):
         """
         Routes GET requests to specific endpoints.
         """
