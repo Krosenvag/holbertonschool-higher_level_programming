@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""Tests if an object is an instance of the specified class,
+or any class inherited from it."""
 
 
 def is_kind_of_class(obj, a_class):

@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""Custom list type intended to only contain integers.
+"""
 
 
 class MyList(list):

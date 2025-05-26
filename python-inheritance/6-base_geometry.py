@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Intentionally empty area() method."""
 
 
 class BaseGeometry:
