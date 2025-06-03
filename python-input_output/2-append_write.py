@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Defines function that appends to txt file"""
 
+
 def append_write(filename="", text=""):
     """function appends text to file
     Args:
