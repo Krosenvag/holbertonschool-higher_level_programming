@@ -194,7 +194,7 @@ node 1-multi_languages.js
 
 ## Auteur
 
-Projet réalisé dans le cadre du curriculum **Holberton School**.
+Krosenvag
 
 ## Licence
 
